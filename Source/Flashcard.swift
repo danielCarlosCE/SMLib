@@ -9,7 +9,7 @@
 import Foundation
 
 /// Flashcard
-public class Flashcard: Equatable, Hashable {
+public class Flashcard: Equatable, Hashable, Codable {
     public var front: String
     public var back: String
     public var uuid: UUID

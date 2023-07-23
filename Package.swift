@@ -1,8 +1,9 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "SMLib",
+    defaultLocalization: "en",
     products: [
         .library(
             name: "SMLib",
